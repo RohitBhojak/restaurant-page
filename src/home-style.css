@@ -1,0 +1,23 @@
+#home {
+    margin-top: 20px;
+    font-size: 3.2rem;
+    font-family: "Tangerine", serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home h1 {
+    font-family: "Quintessential", serif;
+    color: #ffcc00;
+    text-shadow:
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        1px 1px 0 var(--text-shadow-color);
+}
+
+#home h5 {
+    color: black;
+}
