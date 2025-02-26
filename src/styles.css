@@ -5,11 +5,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    line-height: 1.5;
 }
 
 :root {
     font-size: 62.5%;
-    font-family: "Poppins", sans-serif;
+    font-family: "Times New Roman", sans-serif;
     --text-color: white;
     --text-shadow-color: black;
     --haldi-color: #ffcc00;
