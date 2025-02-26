@@ -1,7 +1,6 @@
+import "./home-style.css";
 export default function loadHome() {
     const content = document.querySelector('#content');
-    content.classList.remove(...content.classList);
-    content.classList.add("home");
     content.innerHTML = "";
 
     const container = document.createElement('div');

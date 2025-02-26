@@ -1,11 +1,12 @@
 import loadHome from "./home";
+import loadMenu from "./menu";
 import "./styles.css";
-import "./home-style.css";
 
 document.addEventListener('DOMContentLoaded', loadHome);
 
-const homeButton = document.querySelector('#home');
-const menuButton = document.querySelector('#home');
-const aboutButton = document.querySelector('#home');
+const homeButton = document.querySelector('#home-button');
+const menuButton = document.querySelector('#menu-button');
+const aboutButton = document.querySelector('#about-button');
 
 homeButton.addEventListener('click', loadHome);
+menuButton.addEventListener('click', loadMenu);

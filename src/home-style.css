@@ -10,7 +10,7 @@
 
 #home h1 {
     font-family: "Quintessential", serif;
-    color: #ffcc00;
+    color: var(--haldi-color);
     text-shadow:
         -1px -1px 0 var(--text-shadow-color),
         1px -1px 0 var(--text-shadow-color),

@@ -12,6 +12,7 @@
     font-family: "Poppins", sans-serif;
     --text-color: white;
     --text-shadow-color: black;
+    --haldi-color: #ffcc00;
 }
 
 body {
@@ -27,6 +28,7 @@ header {
     align-items: center;
     padding: 2rem;
     background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(3px);
 }
 
 nav {
